@@ -1,0 +1,17 @@
+.poloroid {
+    display: block;
+    width: 80%;
+    background-color: white;
+    margin: 3em 2em 3em 2em;
+    border: 1px solid silver;
+}
+
+.polo-text {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#welcome-left-col {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.15em;
+}

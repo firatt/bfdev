@@ -1,0 +1,22 @@
+.people-container {
+    margin: 1em 1em 1em 1em;
+    border-radius: 0.3em;
+}
+
+.row {
+    margin: 1em 1em 1em 1em;
+}
+
+.card {
+    width: 15em;
+    margin: 1em 1em 1em 1em;
+}
+
+img {
+    height: 18em;
+    object-fit: cover;
+}
+
+.btn {
+    margin: 0em 1em 1em 1em;
+}

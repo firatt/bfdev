@@ -1,0 +1,62 @@
+
+.footer {
+    margin: 5em 0em -5em 0em;
+    height: 100%;
+    background-color: #97040c;
+}
+
+#footer-span1 {
+    color: white;
+}
+
+h5 {
+    /* text-decoration: underline; */
+    color: rgb(231, 231, 231);
+}
+
+span {
+    color: rgba(253, 166, 131, 0.877);
+}
+
+#left {
+    text-align: left;
+}
+
+#center {
+    text-align: left;
+}
+
+#right {
+    text-align: left;
+}
+
+#submit-btn {
+    margin-top: 0.5em;
+    width: 100%;
+}
+
+#ku-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+    border-color:  rgba(253, 166, 131, 0.877);
+    color: rgba(253, 166, 131, 0.877);
+}
+
+button:hover {
+    background-color: rgba(253, 166, 131, 0.877);
+    border-color:  rgba(253, 166, 131, 0.877);
+    color: rgba(104, 8, 8, 0.808);
+}
+
+a {
+    color: rgba(253, 166, 131, 0.877);
+}
