@@ -1,7 +1,13 @@
+
 .button-wrapper {
     vertical-align: middle;
 }
 
 .card-body {
-    margin: -1.25em -1.25em -2.25em -1.25em;
+    /* margin: -1.25em -1.25em -2.25em -1.25em; */
+    padding: 0em;
+}
+
+.table {
+    margin-bottom: 0em;
 }
