@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
   carousel_1:string;
   carousel_2:string;
   carousel_3:string;
+  carousel_4:string;
 
 
   constructor() { 
@@ -18,6 +19,8 @@ export class HomeComponent implements OnInit {
     this.carousel_1 = '../../assets/images/carousel_3.jpg'
     this.carousel_2 = '../../assets/images/carousel_2.jpg'
     this.carousel_3 = '../../assets/images/carousel_1.jpg'
+    this.carousel_4 = '../../assets/images/carousel_4.jpg'
+
   }
 
   ngOnInit() {

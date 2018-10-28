@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PeopleComponent implements OnInit {
 
+  keremImagePath: string;
   erhanImagePath: string;
   merveImagePath: string;
   mohammadImagePath: string;
@@ -20,6 +21,7 @@ export class PeopleComponent implements OnInit {
   gokceImagePath:string;
 
   constructor() {
+    this.keremImagePath = '../../assets/images/pekkan.jpg'
     this.erhanImagePath = '../../assets/images/erhan.jpg';
     this.merveImagePath = '../../assets/images/merve.png';
     this.mohammadImagePath = '../../assets/images/mohammad.png';
