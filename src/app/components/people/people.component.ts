@@ -19,6 +19,8 @@ export class PeopleComponent implements OnInit {
   bilgesuImagePath:string;
   senolImagePath:string;
   gokceImagePath:string;
+  firatImagePath:string;
+  gursanImagePath:string;
 
   constructor() {
     this.keremImagePath = '../../assets/images/pekkan.jpg'
@@ -33,6 +35,9 @@ export class PeopleComponent implements OnInit {
     this.bilgesuImagePath = "../../assets/images/bilgesu.jfif";
     this.senolImagePath = "../../assets/images/senol.jpg";
     this.gokceImagePath = "../../assets/images/gokce.jpg";
+    this.firatImagePath = "../../assets/images/firat.jpg";
+    this.gursanImagePath = "../../assets/images/gursan.png";
+
   }
 
   ngOnInit() {

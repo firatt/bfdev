@@ -10,6 +10,9 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ResearchComponent } from './components/research/research.component';
+import { FundsComponent } from './components/funds/funds.component';
+import { NewsComponent } from './components/news/news.component';
+import { OutreachComponent } from './components/outreach/outreach.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { ResearchComponent } from './components/research/research.component';
     PublicationsComponent,
     HomeComponent,
     ContactComponent,
-    ResearchComponent
+    ResearchComponent,
+    FundsComponent,
+    NewsComponent,
+    OutreachComponent
   ],
   imports: [
     BrowserModule,
