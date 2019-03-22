@@ -10,6 +10,13 @@ export class PublicationsComponent implements OnInit {
 
   // Papers
   _2018_1: string;
+  _2018_2: string;
+  _2018_3: string;
+  _2018_4: string;
+  _2018_5: string;
+  _2018_6: string;
+  _2018_7: string;
+  _2018_8: string;
 
   _2017_1: string;
   _2017_2: string;
@@ -105,6 +112,13 @@ export class PublicationsComponent implements OnInit {
   constructor(
   ) {
     this._2018_1 = '../../assets/docs/texts/2018/1.pdf';
+    this._2018_2 = '../../assets/docs/texts/2018/2.pdf';
+    this._2018_3 = '../../assets/docs/texts/2018/3.pdf';
+    this._2018_4 = '../../assets/docs/texts/2018/4.pdf';
+    this._2018_5 = '../../assets/docs/texts/2018/5.pdf';
+    this._2018_6 = '../../assets/docs/texts/2018/6.pdf';
+    this._2018_7 = '../../assets/docs/texts/2018/7.pdf';
+    this._2018_8 = '../../assets/docs/texts/2018/8.pdf';
 
     this._2017_1 = '../../assets/docs/texts/2017/1.pdf';
     this._2017_2 = '../../assets/docs/texts/2017/2.pdf';
