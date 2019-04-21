@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './people.component.html',
   styleUrls: ['./people.component.css']
 })
+
 export class PeopleComponent implements OnInit {
 
   keremImagePath: string;
@@ -21,6 +22,9 @@ export class PeopleComponent implements OnInit {
   gokceImagePath:string;
   firatImagePath:string;
   gursanImagePath:string;
+  basarImagePath:string;
+
+  keremCVPath: string;
 
   constructor() {
     this.keremImagePath = '../../assets/images/pekkan.jpg'
@@ -37,11 +41,12 @@ export class PeopleComponent implements OnInit {
     this.gokceImagePath = "../../assets/images/gokce.jpg";
     this.firatImagePath = "../../assets/images/firat.jpg";
     this.gursanImagePath = "../../assets/images/gursan.png";
-
+    this.basarImagePath = "../../assets/images/basar.png";
+    
+    this.keremCVPath = "../../assets/docs/cv_s/pekkan_cv.pdf";
   }
 
   ngOnInit() {
 
   }
-
 }

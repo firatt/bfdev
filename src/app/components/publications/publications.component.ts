@@ -17,6 +17,7 @@ export class PublicationsComponent implements OnInit {
   _2018_6: string;
   _2018_7: string;
   _2018_8: string;
+  _2018_9: string;
 
   _2017_1: string;
   _2017_2: string;
@@ -119,6 +120,7 @@ export class PublicationsComponent implements OnInit {
     this._2018_6 = '../../assets/docs/texts/2018/6.pdf';
     this._2018_7 = '../../assets/docs/texts/2018/7.pdf';
     this._2018_8 = '../../assets/docs/texts/2018/8.pdf';
+    this._2018_9 = '../../assets/docs/texts/2018/9.pdf';
 
     this._2017_1 = '../../assets/docs/texts/2017/1.pdf';
     this._2017_2 = '../../assets/docs/texts/2017/2.pdf';
