@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FooterAlternativeComponent } from './components/footer-alternative/footer-alternative.component';
 import { PeopleComponent } from './components/people/people.component';
 import { PublicationsComponent } from './components/publications/publications.component';
 import { HomeComponent } from './components/home/home.component';
@@ -19,6 +20,7 @@ import { OutreachComponent } from './components/outreach/outreach.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
+    FooterAlternativeComponent,
     PeopleComponent,
     PublicationsComponent,
     HomeComponent,

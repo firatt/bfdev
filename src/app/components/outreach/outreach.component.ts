@@ -13,6 +13,7 @@ export class OutreachComponent implements OnInit {
   outreach_4: string;
   outreach_5: string;
   outreach_6: string;
+  kusrp: string;
 
 
   constructor() { 
@@ -22,6 +23,7 @@ export class OutreachComponent implements OnInit {
     this.outreach_4 = '../../assets/images/outreach4.JPG'
     this.outreach_5 = '../../assets/images/outreach5.JPG'
     this.outreach_6 = '../../assets/images/outreach6.JPG'
+    this.kusrp = '../../assets/images/kusrp.jpg';
   }
 
   ngOnInit() {

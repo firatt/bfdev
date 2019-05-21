@@ -9,3 +9,78 @@ img {
 row {
     margin: 2em;
 }
+
+@media screen and (min-width: 1200px) {
+    #aha_container {
+        width: 216px;
+        text-align: right;
+    }
+    #aha {
+        width: 100%
+    }
+
+    #nsf_container {
+        width: 216px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+    #aha_container {
+        width: 216px;
+        text-align: right;
+    }
+    #aha {
+        width: 100%
+    }
+
+    #nsf_container {
+        width: 216px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 768px) {
+    #aha_container {
+        width: 216px;
+        text-align: right;
+    }
+    #aha {
+        width: 100%
+    }
+
+    #nsf_container {
+        width: 216px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    #aha_container {
+        width: 216px;
+        text-align: right;
+    }
+    #aha {
+        width: 100%
+    }
+
+    #nsf_container {
+        width: 216px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #aha_container {
+        width: 216px;
+        text-align: right;
+    }
+    #aha {
+        width: 100%
+    }
+
+    #nsf_container {
+        width: 216px;
+        text-align: right;
+    }
+}
