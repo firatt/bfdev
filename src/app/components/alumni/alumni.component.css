@@ -1,0 +1,55 @@
+thead {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+tbody tr {
+  border-bottom: 1px solid lightgray;
+}
+
+thead tr {
+  background-color: rgb(216, 216, 216);
+} 
+
+tbody tr:nth-child(2n) {
+  background-color: rgb(240, 240, 240);
+}
+
+tbody tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+table tr th:nth-child(1) {
+  min-width: 7rem;
+}
+
+table tr th:nth-child(2) {
+  min-width: 5rem;
+}
+
+table tr th:nth-child(3) {
+  min-width: 12rem;
+}
+
+table {
+  margin: 2rem 0rem;
+}
+
+.employees tr th:nth-child(1)  {
+  min-width: 12rem;
+}
+.employees tr th:nth-child(2)  {
+  min-width: 12rem;
+}
+.employees tr th:nth-child(3)  {
+  min-width: 15rem;
+}
+
+.employees tr td:nth-child(3)  {
+  padding-right: 2rem;
+}
+
+.employees tr th:nth-child(4)  {
+  min-width: 15rem;
+}

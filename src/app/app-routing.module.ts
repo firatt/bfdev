@@ -9,6 +9,7 @@ import { ContactComponent } from '../app/components/contact/contact.component';
 import { FundsComponent } from '../app/components/funds/funds.component';
 import { NewsComponent } from '../app/components/news/news.component';
 import { OutreachComponent } from '../app/components/outreach/outreach.component';
+import { AlumniComponent } from '../app/components/alumni/alumni.component';
 
 
 const routes: Routes = [
@@ -19,7 +20,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'funds', component: FundsComponent},
   { path: 'news', component: NewsComponent},
-  { path: 'outreach', component: OutreachComponent }
+  { path: 'outreach', component: OutreachComponent },
+  { path: 'alumni', component: AlumniComponent }
 ];
 
 @NgModule({

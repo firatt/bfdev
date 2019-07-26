@@ -14,6 +14,7 @@ import { ResearchComponent } from './components/research/research.component';
 import { FundsComponent } from './components/funds/funds.component';
 import { NewsComponent } from './components/news/news.component';
 import { OutreachComponent } from './components/outreach/outreach.component';
+import { AlumniComponent } from './components/alumni/alumni.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { OutreachComponent } from './components/outreach/outreach.component';
     ResearchComponent,
     FundsComponent,
     NewsComponent,
-    OutreachComponent
+    OutreachComponent,
+    AlumniComponent
   ],
   imports: [
     BrowserModule,
